@@ -10,3 +10,4 @@ while(chance<=5):
         chance+=1
 if(chance>5):
     print("you loose, the number was = ",rand)
+    sdgsdgg
