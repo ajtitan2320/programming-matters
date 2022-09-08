@@ -1,19 +1,19 @@
-
 #include<iostream>
 using namespace std;
-class Node{
+class node{
     public:
-    int Data;
-    Node *next;
-    Node (int Data){
-        this -> Data = Data;
-        this -> next = NULL;
+    int data;
+    node *next;
+    node(int data){
+        this ->data = data;
+        this ->next = NULL;
     }
+
 };
 int main()
 {
-    Node *n1 = new Node(10);
-    cout<< n1->Data<<endl;
-    cout<< n1->next<<endl;
+    node *node1 = new node(20);
+    cout << node1->data << endl;
+    cout << node1 ->next << endl;
     return 0;
 }
