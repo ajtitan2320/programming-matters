@@ -88,8 +88,18 @@
     </form>
     <form action="/hello">
         <p>
-            <label for=""></label>
+            <label for="name">Enter Your Name</label>
+            <input type="text" name="name" id="name" required minlength="3" maxlength="30">
         </p>
+        <p>
+            <label for="email">Enter Your email</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="password">Enter Your password</label>
+            <input type="password" name="password" id="password" required minlength="3" maxlength="8">
+        </p>
+        <button>submit</button>
     </form>
 </body>
 
