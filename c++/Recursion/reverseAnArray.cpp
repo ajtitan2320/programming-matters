@@ -2,7 +2,7 @@
 using namespace std;
 int arr[]={1,2,3,4,5};
 void Reverse(int arr[],int i,int n){
-    if(i>=n-1){
+    if(i>=n/2){
         return ;
     }
     swap(arr[i],arr[n-i-1]);
@@ -18,7 +18,7 @@ void Reverse(int arr[],int i,int n){
 int main()
 {
     
-    Reverse(arr,0,4);
+    Reverse(arr,0,5);
     for(int i=0;i<5;i++){
         cout<<arr[i]<<" ";
     }
