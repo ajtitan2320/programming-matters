@@ -15,3 +15,4 @@ int main()
     cout<<CheckPalindrome(s,0,s.length());
     return 0;
 }
+int *arr = new int(1);
